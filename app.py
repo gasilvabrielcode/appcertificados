@@ -209,9 +209,9 @@ def button_callback():
     entry_LEGISLACAO.delete(0, 10000000)
 
     if checkbox_1.get() == 1:
-        email_remetente = '' #  insira email
+        email_remetente = ''  # insira email
         email_destinatario = entry_EMAIL.get()
-        email_senha = '' #  insira senha do email
+        email_senha = ''  # insira senha do email
         email_assunto = 'SEGUNDA VIA CERTIFICADO ICETRAN'
         email_corpo = 'Olá {}, segue em anexo a sua segunda via certificado!\n' \
                       'Nós da equipe ICETRAN, desejamos um bom dia!'.format(NOME)
